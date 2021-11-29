@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@for $i from 1 /*to */ through 3 {
+    .item-#{$i}{
+        width: 200px * $i;
+        height: 200px * $i;
+        background-color: chartreuse;
+        margin-bottom: 10px * $i;
+    }
+}
+
+@each $var in main,box,road {
+    .#{$var}{
+        width: 100px;
+        height: 200px;
+        background-color: rebeccapurple;
+        margin-bottom: 15px;
+    }
+    
+}
+$x:4;
+@while $x<7 {
+    .item-#{$x}{
+        width: 200px * $x;
+        height: 200px * $x;
+        background-color: chartreuse;
+        margin-bottom: 10px * $x;
+    }
+    $x:$x+1;
+}

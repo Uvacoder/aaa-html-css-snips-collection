@@ -1,0 +1,31 @@
+p{
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* text-align: center; */
+
+    /* font-size: 24px; */
+    /* font-family: 'Sriracha', cursive; */
+    /* font-weight: 800; */
+    /* font-style: italic; */
+    /* font-style: oblique;  */
+}
+button{
+    margin: 40%;
+    padding: 20px;
+    border-radius: 50%;
+    /* cursor: move; */
+    /* cursor: wait; */
+    /* cursor: text; */
+    cursor: pointer;
+}
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+button:focus{
+    outline: none;
+}

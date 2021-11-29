@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+$bg:red;
+$w:200px;
+$h:200px;
+.box{
+    width: $w;
+    height: $h;
+    background-color: $bg;
+
+    &-item{
+        background-color: blue;
+        width: $w/2;
+        height: $h/4;
+
+        &-one{
+            background-color: yellow;
+            width: $w/4;
+            height: $h/6;
+        }
+    }
+}
+.main{
+    .text-1{
+        background-color: lawngreen;
+        color: #757575;
+        font-size: 60px;
+        border: 3px solid red;
+
+    }
+    .text-2{
+        @extend .text-1;
+        font-family: Arial, Helvetica, sans-serif;
+        color:inherit;
+    }
+}
+h2{
+    @if 1+1==2{
+        background-color: #cccccc;
+        color: red;
+    }
+    @if 5<3{
+        background-color: brown;
+    }
+    @if null{
+        background-color: chocolate;
+
+    }
+}
+h3{
+    @if $bg==red{
+        color: chocolate;
+        background-color: crimson;
+    }
+    @else if $bg==green{
+        color: cadetblue;
+        background-color: bisque;
+    }
+    @else {
+        background-color: black;
+        color: #ffffff;
+    }
+}

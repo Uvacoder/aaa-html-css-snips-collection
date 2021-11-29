@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: red;
+    overflow: hidden;
+    list-style: none;
+}
+.menu li{
+    float: left;
+
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    padding: 18px 24px;
+    display: block;
+}
+.box{
+    background-color: black;
+    color: white !important;
+}
+.menu li a:not(.box):hover{
+    background-color: white;
+    color: black;
+}
+.box:hover{
+    background-color:yellow;
+    color: black !important;
+}
+.dropdown-content{
+    background-color: green;
+    width: 97px;
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+   display: inline;
+}
+.dropdown:hover .btn{
+    background-color: green;
+}
+.dropdown-content a:hover{
+    background-color: yellow !important;
+}

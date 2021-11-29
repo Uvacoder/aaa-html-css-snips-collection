@@ -1,0 +1,91 @@
+
+    .unit{
+        width: 2cm;
+        height: 20mm;
+        background: steelblue;
+    }
+    .unit:hover{
+        transform: scale(2);
+        cursor: pointer;
+    }
+
+    .btn:hover{
+            cursor: pointer;
+            background: rgba(0, 255, 0, 0.9);
+            transform: rotate(45deg)
+    }
+    .btn1:hover{
+        cursor: pointer;
+        transform: scale(1.8);
+        background: rgb(200, 100, 180);
+    }
+
+    .left{
+        width: 200px;
+        height: 3px;
+        background: yellow;
+        transform: rotate(60deg);
+        position: absolute;
+        top: 53.5%;
+        left: 51%;
+    }
+    .right{
+        width: 200px;
+        height: 3px;
+        background: yellow;
+        transform: rotate(120deg);
+        position: absolute;
+        top: 53%;
+        left: 40%;
+    }
+    .straight{
+        width: 210px;
+        height: 3px;
+        background: yellow;
+        position: absolute;
+        bottom: 0;
+        left: 45%;  
+    }
+
+    .num{
+        margin: 200px;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        
+    }
+
+    .num1{
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+        width: 300px;
+        height: 2px;
+        background:rgba(0, 255, 0, 0.9);
+    }
+    .num2{
+        position: absolute;
+        top: 0;
+        left: 40%;
+        width: 300px;
+        height: 2px;
+        background:rgba(0, 255, 0, 0.9);
+    }
+    .num3{
+        position: absolute;
+        top: 49%;
+        left: -10%;
+        transform: rotate(90deg);
+        width: 300px;
+        height: 2px;
+        background:rgba(0, 255, 0, 0.9);
+    }
+    .num4{
+        position: absolute;
+        top: 49%;
+        left: 90%;
+        transform: rotate(90deg);
+        width: 300px;
+        height: 2px;
+        background:rgba(0, 255, 0, 0.9);
+    }

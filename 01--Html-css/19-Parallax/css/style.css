@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.hhh{
+    text-align: center;
+    font-size:50px;
+}
+.para{
+    text-align: center;
+    font-size: 50px;
+}
+.parallax{
+    background-image: url(../img/12.jpg);
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2{
+    background-image: url(../img/1.jpg);
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
